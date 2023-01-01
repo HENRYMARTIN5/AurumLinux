@@ -1,6 +1,6 @@
 # Aurum Linux
 
-A barebones Linux distribution build from scratch with Busybox at its core.
+A barebones Linux distribution built from scratch with Busybox at its core.
 
 ## Building
 

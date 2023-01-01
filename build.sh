@@ -10,7 +10,7 @@ cd src
 
     # Kernel
     LINUX_MAJOR=$(echo $LINUX_VERSION | sed 's/\([0-9]*\)[^0-9].*/\1/')
-    wget https://mirrors.edge.kernel.org/pub/linux/kernel/v5.x/linux-$LINUX_VERSION.tar.xz
+    wget https://mirrors.edge.kernel.org/pub/linux/kernel/v$LINUX_MAJOR.x/linux-$LINUX_VERSION.tar.xz
     tar -xf linux-$LINUX_VERSION.tar.xz
     cd linux-$LINUX_VERSION
         make defconfig
@@ -18,7 +18,7 @@ cd src
     cd ..
 
     # Busybox
-    wget https://www.busybox.net/downloads/busybox-$BUSYBOX_VERSION.tar.bz2
+    wget https://www.busybox.net/downloads/busybox-$BUSYBOX_VERSION.tar.bz2    
     tar -xf busybox-$BUSYBOX_VERSION.tar.bz2
     cd busybox-$BUSYBOX_VERSION
         

@@ -22,6 +22,13 @@ A quick way to install all of these is to run the following command:
 sudo apt install git build-essential fakeroot libncurses5-dev libssl-dev flex bison libelf-dev qemu-system-x86
 ```
 
+Clone the repo and `cd` into it:
+
+```bash
+git clone https://github.com/HENRYMARTIN5/AurumLinux.git
+cd AurumLinux
+```
+
 Then, run the following commands to build Aurum Linux and load it into QEMU:
 
 ```bash

@@ -6,8 +6,8 @@ A barebones Linux distribution built from scratch with Busybox at its core.
 
 To build the distribution, you need to have the following installed (package names are for Ubuntu 20.04 LTS):
 
+- `git`
 - `build-essential`
-- `kernel-package`
 - `fakeroot`
 - `libncurses5-dev`
 - `libssl-dev`
@@ -15,6 +15,12 @@ To build the distribution, you need to have the following installed (package nam
 - `bison`
 - `libelf-dev`
 - `qemu-system-x86`
+
+A quick way to install all of these is to run the following command:
+
+```bash
+sudo apt install git build-essential fakeroot libncurses5-dev libssl-dev flex bison libelf-dev qemu-system-x86
+```
 
 Then, run the following commands to build Aurum Linux and load it into QEMU:
 
